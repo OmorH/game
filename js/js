@@ -1,0 +1,3 @@
+Alert "HI" every 3 seconds:
+
+setInterval(function(){alert("Hello")},3000);

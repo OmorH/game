@@ -1,0 +1,16 @@
+body { background-color: #99FFFF;
+ }
+
+.word_display {
+	width:500px;
+	height:100px;
+	border:1px solid #000;
+	margin: 0 auto;
+}
+
+
+.word_style {
+	width:500px;
+	height:100px;
+	margin: 0 auto;
+}
