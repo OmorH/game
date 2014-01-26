@@ -40,6 +40,18 @@ var data = [
 	{
 		answer: "Tottenham Hotspur",
 			link: "images/spurs.jpeg"
+	},
+	{
+	answer: "Borussia Dortmund",
+			link:"images/bd.jpeg"
+
+		},
+
+	{
+			answer:"Santos",
+				link:"images/s.jpeg"
+
+
 	}
 	
 ]
@@ -47,7 +59,7 @@ var data = [
 function checkAnswer(current_question)
 {
  var answer=$("#answer"+current_question).val();
- if (answer == data[current_question].answer) alert('correct');
+ if (answer.toLowerCase() == data[current_question].answer.toLowerCase()) alert('correct');
  else alert('incorrect')
 }
 
